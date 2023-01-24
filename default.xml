@@ -12,17 +12,13 @@
   <project path="build" name="kernel/build" />
   <project path="kernel/tests" name="kernel/tests" />
   <project path="kernel/configs" name="kernel/configs" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" clone-depth="1" />
-  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
   <project path="tools/libufdt" name="platform/system/libufdt" revision="master" remote="aosp" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <!-- Xiaomi SM8250 Kernel -->
-  <project path="kernel/msm-4.19" name="android_kernel_xiaomi_sm8250" remote="statix">
+  <project path="kernel/msm-4.19" name="mvaisakh/alioth" remote="github" revision="main">
     <linkfile dest="build.config.xiaomi.alioth" src="build.config.xiaomi.alioth" />
     <linkfile dest="build.config.xiaomi.apollo" src="build.config.xiaomi.apollo" />
     <linkfile dest="build.config.xiaomi.cas" src="build.config.xiaomi.cas" />
