@@ -14,16 +14,10 @@
   <project path="kernel/configs" name="kernel/configs" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
   <project path="tools/libufdt" name="platform/system/libufdt" revision="master" remote="aosp" />
 
   <!-- OnePlus 9 Series Kernel -->
   <project path="kernel/msm-5.4" name="mvaisakh/oneplus9pro" remote="github" revision="main" />
-
-  <!-- Eva GCC -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="statix" revision="13.0.1" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="github" revision="d82ade018dd655af90322bb8d6927aa2374dbdcb" clone-depth="1" />
-
-  <!-- AnyKernel3 -->
-  <project path="ak3" name="mvaisakh/AnyKernel3" remote="github" revision="op9p" clone-depth="1" />
 </manifest>
